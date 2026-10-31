@@ -105,7 +105,7 @@ const SETS = [
   {
     name: 'red-robin',
     title: 'Red Robin — Bloomington, Minnesota',
-    blurb: 'A prototype restaurant set from Chipman Design, complete through bid issue: architectural sheets, kitchen equipment, structural, mechanical, electrical and fire protection, and the specifications. 71 sheets, issued 08/05/2014.',
+    blurb: 'Prototype restaurant, full bid set.',
     sheets: [
       { file: 'red-robin-p01', sheet: 'CS1.0', label: 'Cover sheet' },
       { file: 'red-robin-p02', sheet: 'A1.0', label: 'Architectural site plan' },
@@ -183,7 +183,7 @@ const SETS = [
   {
     name: 'amigas',
     title: 'Amigas Restaurant — Glendale Heights',
-    blurb: 'Restaurant renovation drawn for permit: demolition, floor plan, exterior and interior elevations, ceiling plan, electrical and plumbing.',
+    blurb: 'Restaurant renovation.',
     sheets: [
       { file: 'amigas-p01', sheet: 'G-001', label: 'Cover sheet' },
       { file: 'amigas-p02', sheet: 'G-002', label: 'Code compliance' },
@@ -200,7 +200,7 @@ const SETS = [
   {
     name: 'assembly-hall',
     title: 'Assembly Hall — auditorium and video wall',
-    blurb: 'Auditorium renovation with a video wall: video room, mezzanine, the structural support for the wall, power and cabling diagrams, and schedules.',
+    blurb: 'Auditorium renovation, new video wall and mezzanine.',
     sheets: [
       { file: 'assembly-hall-p01', sheet: 'G-001', label: 'Cover sheet' },
       { file: 'assembly-hall-p02', sheet: 'A-101', label: 'Floor plan' },
@@ -221,7 +221,7 @@ const SETS = [
   {
     name: 'butterfield',
     title: 'Butterfield — Bellwood',
-    blurb: 'Kingdom Hall renovation at 4745 Butterfield Rd: site, structural and architectural sheets, then plumbing, mechanical and electrical, including demolition plans for each.',
+    blurb: 'Hall renovation with basement finish and new services.',
     sheets: [
       { file: 'butterfield-p01', sheet: 'G-001', label: 'Cover sheet' },
       { file: 'butterfield-p02', sheet: 'G-002', label: 'Code compliance' },
@@ -275,7 +275,7 @@ const SETS = [
   {
     name: 'harlem',
     title: 'Harlem — 6570 N Harlem Ave, Chicago (set 1)',
-    blurb: 'Kingdom Hall remodel. First issue bound in this file: civil, architectural, plumbing, mechanical and electrical sheets.',
+    blurb: 'Kingdom Hall remodel, first issue.',
     sheets: [
       { file: 'harlem-p01', sheet: 'G-001', label: 'Cover sheet' },
       { file: 'harlem-p02', sheet: 'G-002', label: 'Code compliance' },
@@ -326,7 +326,7 @@ const SETS = [
   {
     name: 'harlem-2',
     title: 'Harlem — 6570 N Harlem Ave, Chicago (set 2)',
-    blurb: 'Second issue bound into the same PDF, renumbered and extended with the plat of survey, house number certificate, driveway exhibit, parapet and roof details.',
+    blurb: 'Kingdom Hall remodel, second issue.',
     sheets: [
       { file: 'harlem-2-p45', sheet: 'G-001', label: 'Cover sheet' },
       { file: 'harlem-2-p46', sheet: 'G-002', label: 'Code compliance' },
@@ -364,7 +364,7 @@ const SETS = [
   {
     name: 'zion',
     title: 'Zion — Kingdom Hall renovation',
-    blurb: 'Renovation in Zion: site and roof drainage, demolition, floor and ceiling plans, door schedules, and the electrical, plumbing and mechanical sheets.',
+    blurb: 'Renovation with new floor, ceiling and finish plans.',
     sheets: [
       { file: 'zion-p01', sheet: 'G-001', label: 'Cover sheet' },
       { file: 'zion-p02', sheet: 'G-003', label: 'Code compliance' },
@@ -395,7 +395,7 @@ const SETS = [
   {
     name: 'bsfca',
     title: 'Bible school, Central America — Heredia, Costa Rica',
-    blurb: 'A permit set for a Bible school campus, issued in Spanish and English: fire protection, architectural and demolition plans building by building, the mechanical set, and the electrical and access-control site plans.',
+    blurb: 'Bible school campus permit set.',
     sheets: [
       { file: 'bsfca-bound-p01', sheet: 'FS-100', label: 'Title sheet, general notes' },
       { file: 'bsfca-bound-p02', sheet: 'F-101', label: 'Site fire protection plan' },
@@ -432,7 +432,7 @@ const SETS = [
   {
     name: 'keystone',
     title: '9456 Keystone Ln — Skokie',
-    blurb: 'Second-storey addition and basement finish. The whole permit set in order: demolition and framing, floor and kitchen plans, all four elevations, sections, wall details, and the electrical, plumbing and mechanical sheets.',
+    blurb: 'Second-storey addition and basement finish.',
     sheets: [
       { file: 'keystone-p01', sheet: 'G-001', label: 'Cover and scope of work' },
       { file: 'keystone-p02', sheet: 'G-002', label: 'Site plan' },
@@ -463,7 +463,7 @@ const SETS = [
   {
     name: 'waller',
     title: '851 N Waller — Chicago',
-    blurb: 'Interior remodel of a two-storey house: a new basement stair, a new egress window, and a full electrical, plumbing and mechanical package alongside the architectural sheets.',
+    blurb: 'House interior remodel.',
     sheets: [
       { file: 'waller-p01',  sheet: 'G-001',  label: 'Cover sheet' },
       { file: 'waller-p02',  sheet: 'AD101',  label: 'Demolition plan' },
@@ -482,7 +482,7 @@ const SETS = [
   {
     name: 'lockwood',
     title: '422 N Lockwood — Chicago',
-    blurb: 'Interior remodel with a new egress window and window well, drawn through to the mechanical, electrical and plumbing sheets.',
+    blurb: 'Interior remodel with a new egress window.',
     sheets: [
       { file: 'lockwood-p01', sheet: 'G-001', label: 'Cover sheet' },
       { file: 'lockwood-p02', sheet: 'A-101', label: 'Basement floor plan' },
@@ -499,7 +499,7 @@ const SETS = [
   {
     name: 'kenton',
     title: 'Kenton — floor and garage plans',
-    blurb: 'Floor plan plus two options for a detached garage, with the structural sheet for the framing over.',
+    blurb: 'Floor plan and two garage options.',
     sheets: [
       { file: 'kenton-04-a101-p01',        sheet: 'A-101',   label: 'Floor plan' },
       { file: 'kenton-01-structure-p01',   sheet: 'A-101 S', label: 'Structural floor plan' },
@@ -510,7 +510,7 @@ const SETS = [
   {
     name: 'davis',
     title: 'Davis — floor plan',
-    blurb: 'Floor plan sheet from a residential remodel.',
+    blurb: 'Floor plan.',
     sheets: [
       { file: 'davis-p01', sheet: 'A-101', label: 'Floor plan' },
     ],
@@ -518,7 +518,7 @@ const SETS = [
   {
     name: 'brookwood',
     title: '1711 Brookwood Dr — residential remodel',
-    blurb: 'Demolition and proposed floor plans for the first and second levels.',
+    blurb: 'Demolition and proposed plans.',
     sheets: [
       { file: 'brookwood-p01', sheet: 'A-101', label: 'Demolition and proposed plans' },
     ],
@@ -526,7 +526,7 @@ const SETS = [
   {
     name: 'ashbury',
     title: '713 N Ashbury — exterior stair',
-    blurb: 'Guardrail and handrail detail for an exterior stair: treated posts, aluminium spindles and concrete anchors.',
+    blurb: 'Exterior stair guardrail detail.',
     sheets: [
       { file: 'ashbury-p01', sheet: 'Detail', label: 'Guardrail and handrail' },
     ],
