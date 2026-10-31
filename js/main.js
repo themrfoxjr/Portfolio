@@ -100,62 +100,168 @@ function openSeq(list, i) {
   show(it.src, it.alt, it.cap);
 }
 
-// One entry per sheet in the Keystone set, in sheet order.
-const KEYSTONE = [
-  { p: 1,  sheet: 'G-001', label: 'Cover and scope of work' },
-  { p: 2,  sheet: 'G-002', label: 'Site plan' },
-  { p: 3,  sheet: 'D-1',   label: 'Demolition plan' },
-  { p: 4,  sheet: 'A0',    label: 'Basement plan' },
-  { p: 5,  sheet: 'A1',    label: 'Floor plans' },
-  { p: 6,  sheet: 'A2',    label: 'Kitchen plan' },
-  { p: 7,  sheet: 'A6-1',  label: 'Elevations — front' },
-  { p: 8,  sheet: 'A6-2',  label: 'Elevations — north' },
-  { p: 9,  sheet: 'A6-3',  label: 'Elevations — south' },
-  { p: 10, sheet: 'A6-4',  label: 'Elevations — west' },
-  { p: 11, sheet: 'A8',    label: 'Detail sections' },
-  { p: 12, sheet: 'A9',    label: 'Building sections' },
-  { p: 13, sheet: 'A10',   label: 'Wall sections' },
-  { p: 14, sheet: 'A11',   label: 'Wall sections, enlarged' },
-  { p: 16, sheet: 'A16',   label: 'Reflected ceiling plan' },
-  { p: 17, sheet: 'E0',    label: 'Basement electrical plan' },
-  { p: 18, sheet: 'E1',    label: 'Electrical plans' },
-  { p: 19, sheet: 'P1',    label: 'Plumbing diagrams' },
-  { p: 20, sheet: 'S1',    label: 'First floor framing plan' },
-  { p: 21, sheet: 'S2',    label: 'Second floor framing plan' },
-  { p: 22, sheet: 'M1',    label: 'HVAC plan' },
-  { p: 23, sheet: 'SP1',   label: 'Sprinkler plan' },
-  { p: 24, sheet: 'A12',   label: 'Gable and reveal details' },
-  { p: 25, sheet: 'A13',   label: 'Overhang details' },
+// Drawing sets: one entry per project, in the order they appear on the page.
+const SETS = [
+  {
+    name: 'keystone',
+    title: '9456 Keystone Ln — Skokie',
+    blurb: 'Second-storey addition and basement finish. The whole permit set in order: demolition and framing, floor and kitchen plans, all four elevations, sections, wall details, schedules, and the electrical, plumbing and mechanical sheets.',
+    sheets: [
+      { file: 'keystone-p01', sheet: 'G-001', label: 'Cover and scope of work' },
+      { file: 'keystone-p02', sheet: 'G-002', label: 'Site plan' },
+      { file: 'keystone-p03', sheet: 'D-1',   label: 'Demolition plan' },
+      { file: 'keystone-p04', sheet: 'A0',    label: 'Basement plan' },
+      { file: 'keystone-p05', sheet: 'A1',    label: 'Floor plans' },
+      { file: 'keystone-p06', sheet: 'A2',    label: 'Kitchen plan' },
+      { file: 'keystone-p07', sheet: 'A6-1',  label: 'Elevations — front' },
+      { file: 'keystone-p08', sheet: 'A6-2',  label: 'Elevations — north' },
+      { file: 'keystone-p09', sheet: 'A6-3',  label: 'Elevations — south' },
+      { file: 'keystone-p10', sheet: 'A6-4',  label: 'Elevations — west' },
+      { file: 'keystone-p11', sheet: 'A8',    label: 'Detail sections' },
+      { file: 'keystone-p12', sheet: 'A9',    label: 'Building sections' },
+      { file: 'keystone-p13', sheet: 'A10',   label: 'Wall sections' },
+      { file: 'keystone-p14', sheet: 'A11',   label: 'Wall sections, enlarged' },
+      { file: 'keystone-p15', sheet: 'A15',   label: 'Schedules' },
+      { file: 'keystone-p16', sheet: 'A16',   label: 'Reflected ceiling plan' },
+      { file: 'keystone-p17', sheet: 'E0',    label: 'Basement electrical plan' },
+      { file: 'keystone-p18', sheet: 'E1',    label: 'Electrical plans' },
+      { file: 'keystone-p19', sheet: 'P1',    label: 'Plumbing diagrams' },
+      { file: 'keystone-p20', sheet: 'S1',    label: 'First floor framing plan' },
+      { file: 'keystone-p21', sheet: 'S2',    label: 'Second floor framing plan' },
+      { file: 'keystone-p22', sheet: 'M1',    label: 'HVAC plan' },
+      { file: 'keystone-p23', sheet: 'SP1',   label: 'Sprinkler plan' },
+      { file: 'keystone-p24', sheet: 'A12',   label: 'Gable and reveal details' },
+      { file: 'keystone-p25', sheet: 'A13',   label: 'Overhang details' },
+    ],
+  },
+  {
+    name: 'waller',
+    title: '851 N Waller — Chicago',
+    blurb: 'Interior remodel of a two-storey house: a new basement stair, a new egress window, and a full electrical, plumbing and mechanical package alongside the architectural sheets.',
+    sheets: [
+      { file: 'waller-p01',  sheet: 'G-001',  label: 'Cover sheet' },
+      { file: 'waller-p02',  sheet: 'AD101',  label: 'Demolition plan' },
+      { file: 'waller-p03',  sheet: 'A-101',  label: 'Basement floor plan' },
+      { file: 'waller-p04',  sheet: 'AN101',  label: 'Basement and first floor ceiling plan' },
+      { file: 'waller-p05',  sheet: 'A-601',  label: 'Window and door schedules' },
+      { file: 'waller-p06',  sheet: 'P-001',  label: 'General notes, schedules and details' },
+      { file: 'waller-p07',  sheet: 'P-101',  label: 'Condensate, waste and vent plans' },
+      { file: 'waller-p08',  sheet: 'P-102',  label: 'Domestic water and gas plan' },
+      { file: 'waller-p09',  sheet: 'E-001',  label: 'General notes' },
+      { file: 'waller-p10',  sheet: 'EL101',  label: 'Lighting and power plan' },
+      { file: 'waller-p11',  sheet: 'M-001',  label: 'General notes and schedules' },
+      { file: 'waller-p12',  sheet: 'M-101',  label: 'Ductwork plan' },
+    ],
+  },
+  {
+    name: 'lockwood',
+    title: '422 N Lockwood — Chicago',
+    blurb: 'Interior remodel with a new egress window and window well, drawn through to the mechanical, electrical and plumbing sheets.',
+    sheets: [
+      { file: 'lockwood-p01', sheet: 'G-001', label: 'Cover sheet' },
+      { file: 'lockwood-p02', sheet: 'A-101', label: 'Basement floor plan' },
+      { file: 'lockwood-p03', sheet: 'AN101', label: 'Basement and first floor ceiling plan' },
+      { file: 'lockwood-p04', sheet: 'A-601', label: 'Window and door schedules' },
+      { file: 'lockwood-p05', sheet: 'P-001', label: 'General notes, schedules and details' },
+      { file: 'lockwood-p06', sheet: 'P-101', label: 'Condensate, waste and vent plans' },
+      { file: 'lockwood-p07', sheet: 'P-102', label: 'Domestic water and gas plan' },
+      { file: 'lockwood-p08', sheet: 'M-001', label: 'General notes and schedules' },
+      { file: 'lockwood-p09', sheet: 'M-101', label: 'Ductwork plan' },
+      { file: 'lockwood-p10', sheet: 'E-001', label: 'General notes' },
+      { file: 'lockwood-p11', sheet: 'EL101', label: 'Lighting and power plan' },
+    ],
+  },
+  {
+    name: 'kenton',
+    title: 'Kenton — floor and garage plans',
+    blurb: 'Floor plan plus two options for a detached garage, with the structural sheet for the framing over.',
+    sheets: [
+      { file: 'kenton-04-a101-p01',        sheet: 'A-101',   label: 'Floor plan' },
+      { file: 'kenton-01-structure-p01',   sheet: 'A-101 S', label: 'Structural floor plan' },
+      { file: 'kenton-02-garage-ga101-p01', sheet: 'GA-101',  label: 'Garage floor plan' },
+      { file: 'kenton-03-garage-ga102-p01', sheet: 'GA-102',  label: 'Garage plan, second option' },
+    ],
+  },
+  {
+    name: 'davis',
+    title: 'Davis — floor plan',
+    blurb: 'Floor plan sheet from a residential remodel.',
+    sheets: [
+      { file: 'davis-p01', sheet: 'A-101', label: 'Floor plan' },
+    ],
+  },
+  {
+    name: 'brookwood',
+    title: '1711 Brookwood Dr — residential remodel',
+    blurb: 'Demolition and proposed floor plans for the first and second levels.',
+    sheets: [
+      { file: 'brookwood-p01', sheet: 'A-101', label: 'Demolition and proposed plans' },
+    ],
+  },
+  {
+    name: 'ashbury',
+    title: '713 N Ashbury — exterior stair',
+    blurb: 'Guardrail and handrail detail for an exterior stair: treated posts, aluminium spindles and concrete anchors.',
+    sheets: [
+      { file: 'ashbury-p01', sheet: 'Detail', label: 'Guardrail and handrail' },
+    ],
+  },
 ];
 
-const sheetSrc = n => `images/sets/keystone/keystone-p${String(n).padStart(2, '0')}.jpg`;
-const thumbSrc = n => `images/sets/keystone/thumbs/keystone-p${String(n).padStart(2, '0')}.jpg`;
+const sheetUrl = (s, thumb) =>
+  `images/sets/${s.set}/${thumb ? 'thumbs/' : ''}${s.file}.jpg`;
 
-const keystoneList = KEYSTONE.map(k => ({
-  src: sheetSrc(k.p),
-  alt: `Sheet ${k.sheet} — ${k.label}`,
-  cap: `9456 Keystone Ln, Skokie — ${k.sheet} · ${k.label}`,
-}));
+function renderSets() {
+  const host = document.getElementById('sets');
+  if (!host) return;
 
-const strip = document.getElementById('keystone-strip');
-if (strip) {
-  KEYSTONE.forEach((k, i) => {
-    const li = document.createElement('li');
-    li.innerHTML = `
-      <figure>
-        <button type="button" data-sheet="${i}" aria-label="Open sheet ${k.sheet}, ${k.label}">
-          <img src="${thumbSrc(k.p)}" alt="Sheet ${k.sheet} — ${k.label}" loading="lazy" width="520" height="347">
-        </button>
-        <figcaption class="tag"><strong>${k.sheet}</strong><span>${k.label}</span></figcaption>
-      </figure>`;
-    strip.appendChild(li);
-  });
+  SETS.forEach(set => {
+    const list = set.sheets.map(sh => ({
+      src: sheetUrl({ set: set.name, file: sh.file }),
+      alt: `Sheet ${sh.sheet} — ${sh.label}`,
+      cap: `${set.title.split(' — ')[0]} — ${sh.sheet} · ${sh.label}`,
+    }));
 
-  strip.addEventListener('click', e => {
-    const btn = e.target.closest('button[data-sheet]');
-    if (btn) openSeq(keystoneList, Number(btn.dataset.sheet));
+    const block = document.createElement('div');
+    block.className = 'set';
+
+    const head = document.createElement('div');
+    head.className = 'set-head';
+    head.innerHTML = `
+      <div>
+        <h3>${set.title}</h3>
+        <p>${set.blurb}</p>
+      </div>
+      <p class="set-count">${set.sheets.length} ${set.sheets.length === 1 ? 'sheet' : 'sheets'}</p>`;
+
+    const strip = document.createElement('ol');
+    strip.className = 'set-strip';
+    strip.setAttribute('aria-label', `${set.title} sheet set`);
+
+    set.sheets.forEach((sh, i) => {
+      const li = document.createElement('li');
+      li.innerHTML = `
+        <figure>
+          <button type="button" data-i="${i}" aria-label="Open sheet ${sh.sheet}, ${sh.label}">
+            <img src="${sheetUrl({ set: set.name, file: sh.file }, true)}" alt="Sheet ${sh.sheet} — ${sh.label}" loading="lazy" width="520" height="347">
+          </button>
+          <figcaption class="tag"><strong>${sh.sheet}</strong><span>${sh.label}</span></figcaption>
+        </figure>`;
+      strip.appendChild(li);
+    });
+
+    strip.addEventListener('click', e => {
+      const btn = e.target.closest('button[data-i]');
+      if (btn) openSeq(list, Number(btn.dataset.i));
+    });
+
+    block.appendChild(head);
+    block.appendChild(strip);
+    host.appendChild(block);
   });
 }
+
+renderSets();
 
 function openAt(i) {
   openSeq(visible.map(p => ({
