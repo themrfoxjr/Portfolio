@@ -281,6 +281,99 @@ a.index-row:hover .proj { color: var(--blueprint); }
   color: var(--graphite);
 }
 
+/* ---------- drawing set ---------- */
+
+.set {
+  margin-bottom: clamp(32px, 4vw, 56px);
+}
+
+.set-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) auto;
+  gap: clamp(16px, 3vw, 40px);
+  align-items: end;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: 18px;
+}
+
+.set-head h3 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: clamp(23px, 2.3vw, 33px);
+  line-height: 1.05;
+  margin: 0;
+}
+
+.set-head p {
+  margin: 8px 0 0;
+  color: var(--graphite);
+  font-size: 0.94rem;
+  max-width: 62ch;
+}
+
+.set-head .set-count {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.set-strip {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 14px;
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+}
+
+.set-strip li {
+  flex: 0 0 clamp(148px, 15vw, 205px);
+  scroll-snap-align: start;
+}
+
+.set-strip figure { margin: 0; }
+
+.set-strip button {
+  all: unset;
+  display: block;
+  cursor: zoom-in;
+  border: 1px solid var(--rule);
+  background: #fff;
+  padding: 6px;
+}
+.set-strip button:hover { border-color: var(--ink); }
+.set-strip button:focus-visible { outline: 2px solid var(--blueprint); outline-offset: 2px; }
+
+.set-strip img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.set-strip .tag {
+  display: block;
+  padding-top: 7px;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  color: var(--graphite);
+}
+.set-strip .tag strong {
+  display: block;
+  color: var(--ink);
+  font-weight: 500;
+}
+.set-strip .tag span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /* ---------- filters + gallery ---------- */
 
 .filters {
