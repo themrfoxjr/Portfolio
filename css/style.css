@@ -293,7 +293,10 @@ a.index-row:hover .proj { color: var(--blueprint); }
 .set {
   margin: 0;
   min-width: 0;
+  scroll-margin-top: 84px;
 }
+
+.story h3 { scroll-margin-top: 84px; }
 
 .set-head {
   display: grid;

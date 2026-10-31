@@ -222,6 +222,7 @@ function renderSets() {
 
     const block = document.createElement('div');
     block.className = 'set';
+    block.id = 'set-' + set.name;
 
     const head = document.createElement('div');
     head.className = 'set-head';
