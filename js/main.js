@@ -27,6 +27,10 @@ const PLANS = [
   { id: 'com-michigan-ave',     cat: 'commercial', title: 'Assembly hall — existing and proposed', sheet: 'A-001', alt: 'Existing and proposed main floor plans side by side' },
   { id: 'com-roosevelt-concept',cat: 'commercial', title: 'Mixed-use concept — 0.41 acre site', sheet: 'SK-1', alt: 'Site concept with zoning analysis and building footprint' },
   { id: 'com-amigas-elev',      cat: 'commercial', title: 'Restaurant renovation — front elevation', sheet: 'A-201', alt: 'Proposed front elevation of a restaurant' },
+  { id: 'com-costa-rica-dormitories', cat: 'commercial', title: 'Bible school — dormitory plan', sheet: 'A-122', alt: 'Architectural plan of dormitory rooms with furniture and finishes notes' },
+  { id: 'com-costa-rica-lighting',    cat: 'commercial', title: 'Bible school — lighting plan', sheet: 'E-101', alt: 'Lighting plan with fixture symbols and legend' },
+  { id: 'com-costa-rica-fire-alarm',  cat: 'commercial', title: 'Bible school — fire detection', sheet: 'EY101', alt: 'Fire detection system plan with device legends and wiring details' },
+  { id: 'com-costa-rica-drainage',    cat: 'commercial', title: 'Bible school — site drainage', sheet: 'CJ103', alt: 'Site drainage plan with septic tank, grease trap and distribution details' },
 ];
 
 const gallery = document.getElementById('gallery');
@@ -85,17 +89,34 @@ gallery.addEventListener('click', e => {
   openAt(Number(btn.dataset.i));
 });
 
-function openAt(i) {
-  current = i;
-  const p = visible[current];
-  lbImg.src = `images/plans/${p.id}.jpg`;
-  lbImg.alt = p.alt;
-  lbCap.textContent = `${p.title} — ${p.sheet}`;
+let inGallery = true;
+
+function show(src, alt, caption) {
+  lbImg.src = src;
+  lbImg.alt = alt;
+  lbCap.textContent = caption;
   lightbox.classList.add('is-open');
   lightbox.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
   lightbox.querySelector('.lb-close').focus();
 }
+
+function openAt(i) {
+  current = i;
+  inGallery = true;
+  const p = visible[current];
+  show(`images/plans/${p.id}.jpg`, p.alt, `${p.title} — ${p.sheet}`);
+}
+
+// Photographs and study boards open at full size too.
+document.querySelectorAll('.story-media img').forEach(img => {
+  img.style.cursor = 'zoom-in';
+  img.addEventListener('click', () => {
+    inGallery = false;
+    const cap = img.closest('figure')?.querySelector('figcaption')?.textContent ?? '';
+    show(img.currentSrc || img.src, img.alt, cap);
+  });
+});
 
 function closeLb() {
   lightbox.classList.remove('is-open');
@@ -104,6 +125,7 @@ function closeLb() {
 }
 
 function step(d) {
+  if (!inGallery) return;
   current = (current + d + visible.length) % visible.length;
   openAt(current);
 }

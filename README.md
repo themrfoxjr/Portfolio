@@ -15,10 +15,11 @@ Then open http://localhost:8000.
 ## Structure
 
 ```
-index.html          single page: hero, project index, drawing archive, about, contact
+index.html          single page: hero, project index, drawing archive, built work, about, contact
 css/style.css       all styling
 js/main.js          drawing data + gallery filtering + lightbox
-images/plans/       full-size drawing crops (JPEG, 1800 px on the long edge)
+images/plans/       full-size drawings (JPEG, 1800 px on the long edge)
+images/photos/      built-work photographs and study boards (JPEG, 1600 px)
 images/thumbs/      gallery thumbnails (JPEG, 700 px on the long edge)
 docs/               plan archive catalog (CSV + Markdown) of the source drawing dump
 ```
