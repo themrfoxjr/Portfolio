@@ -420,8 +420,27 @@ a.index-row:hover .proj { color: var(--blueprint); }
 
 .about-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
-  gap: clamp(28px, 5vw, 80px);
+  grid-template-columns: minmax(0, 0.52fr) minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: clamp(24px, 4vw, 56px);
+  align-items: start;
+}
+
+.about-portrait {
+  margin: 0;
+}
+
+.about-portrait img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  background: var(--trace);
+  filter: grayscale(0.15);
+}
+
+.about-portrait figcaption {
+  font-size: 0.76rem;
+  color: var(--graphite);
+  padding-top: 8px;
 }
 
 .about-prose p {
@@ -573,6 +592,7 @@ a.index-row:hover .proj { color: var(--blueprint); }
   .hero-plate img { max-height: 60vh; }
   .section-head { grid-template-columns: 1fr; gap: 14px; }
   .about-grid { grid-template-columns: 1fr; }
+  .about-portrait { max-width: 340px; }
   .story header { grid-template-columns: 1fr; gap: 8px; }
   .story-media { grid-template-columns: 1fr; }
   .index-row { grid-template-columns: 6ch minmax(0, 1fr); row-gap: 4px; }
