@@ -1,32 +1,7 @@
 const PLANS = [
-  // residential
-  { id: 'res-5606-family-room', cat: 'residential', title: 'Family room addition', sheet: 'A-101', alt: 'Floor plan, site plan and foundation plan for a family room and sun room addition' },
-  { id: 'res-5606-garage',      cat: 'residential', title: 'Detached garage', sheet: 'GA-101', alt: 'Garage floor plan, elevations and concrete notes' },
-  { id: 'res-waller-lower',     cat: 'residential', title: 'Interior remodel — lower level', sheet: 'A-101', alt: 'Demolition, main floor and second floor plans for a two-storey interior remodel' },
-  { id: 'res-waller-upper',     cat: 'residential', title: 'Interior remodel — upper levels', sheet: 'A-102', alt: 'Existing and proposed plans for the upper floors of a house remodel' },
-  { id: 'res-lockwood-remodel', cat: 'residential', title: 'Interior remodel and egress window', sheet: 'A-101', alt: 'Floor plans with a new egress window and reconstructed framing' },
-  { id: 'res-keystone-iso',     cat: 'residential', title: 'Two-storey residence — isometric', sheet: 'A-102', alt: 'Isometric view of a two-storey house with scope of work and room schedule' },
-  { id: 'res-keystone-elev',    cat: 'residential', title: 'Two-storey residence — elevations', sheet: 'A-201', alt: 'Front and rear elevations with material legend' },
-  { id: 'res-lee-kitchen',      cat: 'residential', title: 'Kitchen reconfiguration', sheet: 'A-1.0', alt: 'Demolition and proposed kitchen layouts' },
-  { id: 'res-lyons-kitchen',    cat: 'residential', title: 'Kitchen casework layout', sheet: 'A-2', alt: 'Kitchen cabinet elevation with dimensions' },
-  { id: 'res-ashbury-rail',     cat: 'residential', title: 'Guardrail and stair detail', sheet: 'A-301', alt: 'Stair and guardrail assembly drawing with railing options' },
-  { id: 'res-birchwood-kitchen',cat: 'residential', title: 'Kitchen demolition plan', sheet: 'A-102', alt: 'Kitchen demolition plan with cabinet removal notes' },
-
-  // commercial
-  { id: 'com-pilsen-hall',      cat: 'commercial', title: 'Assembly hall renovation — Pilsen', sheet: 'A-101', alt: 'Renovated floor plan of an assembly hall' },
-  { id: 'com-pilsen-existing',  cat: 'commercial', title: 'Existing conditions — level 1', sheet: 'A-102', alt: 'Existing conditions plan of an assembly hall with finish schedule' },
-  { id: 'com-bellwood-hall',    cat: 'commercial', title: 'Assembly hall renovation — Bellwood', sheet: 'A-102', alt: 'First floor plan of an assembly hall renovation' },
-  { id: 'com-zion-hall',        cat: 'commercial', title: 'Assembly hall renovation — Zion', sheet: 'A-101', alt: 'Floor plan and wall type legend for an assembly hall' },
-  { id: 'com-antioch-hall',     cat: 'commercial', title: 'Assembly hall renovation — Antioch', sheet: 'A-101', alt: 'Floor plan of an assembly hall with general and lighting notes' },
-  { id: 'com-addison-hall',     cat: 'commercial', title: 'Assembly hall remodel — Addison', sheet: 'A-101', alt: 'Floor plan with wall dimensions and insulation plan' },
-  { id: 'com-channahon-hall',   cat: 'commercial', title: 'Assembly hall — new floor plan', sheet: 'A-101', alt: 'New floor plan for a single-storey assembly hall' },
-  { id: 'com-auditorium-plan',  cat: 'commercial', title: 'Auditorium renovation', sheet: 'A-102', alt: 'Auditorium floor plan with wall type legend' },
-  { id: 'com-assembly-hall',    cat: 'commercial', title: 'Regional assembly hall — egress and wayfinding', sheet: 'A-001', alt: 'Colour-coded seating, egress and wayfinding plan' },
-  { id: 'com-harlem-hall',      cat: 'commercial', title: 'Assembly hall — auditorium plan', sheet: 'A-101', alt: 'Auditorium, platform, foyer and classroom plan' },
-  { id: 'com-tenant-buildout',  cat: 'commercial', title: 'Warehouse tenant build-out', sheet: 'A-1.0', alt: 'Ground floor dimension plan for a warehouse tenant build-out' },
-  { id: 'com-michigan-ave',     cat: 'commercial', title: 'Assembly hall — existing and proposed', sheet: 'A-001', alt: 'Existing and proposed main floor plans side by side' },
-  { id: 'com-roosevelt-concept',cat: 'commercial', title: 'Mixed-use concept — 0.41 acre site', sheet: 'SK-1', alt: 'Site concept with zoning analysis and building footprint' },
-  { id: 'com-amigas-elev',      cat: 'commercial', title: 'Restaurant renovation — front elevation', sheet: 'A-201', alt: 'Proposed front elevation of a restaurant' },
+  // Add one entry per drawing. `id` is the file name without extension —
+  // images/plans/<id>.jpg and images/thumbs/<id>.jpg must both exist.
+  // cat: 'residential' | 'commercial'
   { id: 'com-costa-rica-dormitories', cat: 'commercial', title: 'Bible school — dormitory plan', sheet: 'A-122', alt: 'Architectural plan of dormitory rooms with furniture and finishes notes' },
   { id: 'com-costa-rica-lighting',    cat: 'commercial', title: 'Bible school — lighting plan', sheet: 'E-101', alt: 'Lighting plan with fixture symbols and legend' },
   { id: 'com-costa-rica-fire-alarm',  cat: 'commercial', title: 'Bible school — fire detection', sheet: 'EY101', alt: 'Fire detection system plan with device legends and wiring details' },
@@ -45,6 +20,15 @@ let current = 0;
 
 function render() {
   gallery.innerHTML = '';
+
+  if (visible.length === 0) {
+    const p = document.createElement('p');
+    p.className = 'gallery-empty';
+    p.textContent = 'No drawings in this set yet.';
+    gallery.appendChild(p);
+    return;
+  }
+
   const frag = document.createDocumentFragment();
 
   visible.forEach((plan, i) => {
@@ -75,6 +59,14 @@ function applyFilter(key) {
   });
   render();
 }
+
+// Keep the counts on the filter buttons in step with the PLANS list.
+filters.forEach(btn => {
+  const key = btn.dataset.filter;
+  const n = key === 'all' ? PLANS.length : PLANS.filter(p => p.cat === key).length;
+  const badge = btn.querySelector('.count');
+  if (badge) badge.textContent = String(n);
+});
 
 filters.forEach(btn => btn.addEventListener('click', () => applyFilter(btn.dataset.filter)));
 

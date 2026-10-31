@@ -28,9 +28,18 @@ docs/               plan archive catalog (CSV + Markdown) of the source drawing 
 
 1. Put the full image in `images/plans/` and a thumbnail in `images/thumbs/`, using the same
    file name.
-2. Add an entry to the `PLANS` array in `js/main.js`:
+2. Add one entry to the `PLANS` array in `js/main.js`:
    `{ id: 'res-my-project', cat: 'residential', title: '…', sheet: 'A-101', alt: '…' }`.
-3. Update the counts on the filter buttons in `index.html`.
+   `cat` is `residential` or `commercial`.
+
+The counts on the filter buttons update themselves from the `PLANS` list, and a filter with
+nothing in it shows an empty-state message rather than a blank panel.
+
+## Built work
+
+The stories under `#built` are plain markup in `index.html` — one `<article class="story">` per
+project, with a `<figure>` per image. Any image in `.story-media` opens in the lightbox, so no
+JavaScript change is needed to add one.
 
 ## Publishing
 

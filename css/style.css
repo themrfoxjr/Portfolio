@@ -358,6 +358,14 @@ a.index-row:hover .proj { color: var(--blueprint); }
 
 .is-hidden { display: none !important; }
 
+.gallery-empty {
+  margin: 0;
+  padding: 40px 0;
+  color: var(--graphite);
+  font-size: 0.94rem;
+  border-top: 1px solid var(--rule);
+}
+
 /* ---------- built work ---------- */
 
 .stories {
