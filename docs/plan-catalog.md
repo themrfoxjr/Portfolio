@@ -1,0 +1,483 @@
+# Plan archive catalog
+
+462 PDF files in the source dump, sorted into residential, commercial and non-drawing documentation.
+
+| Category | Files |
+|---|---|
+| Residential | 80 |
+| Commercial | 345 |
+| Document | 37 |
+
+## Residential
+
+- `1711 Brookwood Dr [634eb0fe].pdf` — Residential remodel
+- `1711 Brookwood Dr [6aa4227a].pdf` — Residential remodel
+- `1711 Brookwood Dr [c36f369b].pdf` — Residential remodel
+- `1711 Brookwood Dr [ee76ee03].pdf` — Residential remodel
+- `1711 Brookwood Dr.pdf` — Residential remodel
+- `234 Quincy Hinsdale.pdf` — Roof framing
+- `2432 Birchwood Plans.pdf` — Kitchen demolition
+- `25W330 Mellor.pdf` — Residential property
+- `25W330_Mellor.pdf` — Residential property
+- `3550 Lee modification.pdf` — Kitchen reconfiguration
+- `364 Appling Ln.pdf` — Residential property
+- `422 N Lockwood Chicago [36352a6c].pdf` — House remodel + egress
+- `422 N Lockwood Chicago.pdf` — House remodel + egress
+- `422 N Lockwood Ludivina.pdf` — House remodel + egress
+- `5606_A-101_FLOOR_PLAN - STRUCTURE-A101 (2).pdf` — Family room addition
+- `5606_A-101_FLOOR_PLAN - garage-GA101.pdf` — Detached garage
+- `5606_A-101_FLOOR_PLAN - garage-GA102 [04e318cb].pdf` — Detached garage
+- `5606_A-101_FLOOR_PLAN - garage-GA102.pdf` — Detached garage
+- `5606_A-101_FLOOR_PLAN A101.pdf` — Family room addition
+- `5606_A-101_FLOOR_PLAN S.pdf` — Family room addition
+- `5606_A-101_FLOOR_PLAN-A101 (2).pdf` — Family room addition
+- `5606_A-101_FLOOR_PLAN-A101 (2019-09-25 14-56-11).pdf` — Family room addition
+- `5606_A-101_FLOOR_PLAN-OPTION A [2659d13d].pdf` — Family room addition
+- `5606_A-101_FLOOR_PLAN-OPTION A.pdf` — Family room addition
+- `5606_A-101_FLOOR_PLAN-OPTION B.pdf` — Family room addition
+- `5606_A-101_FLOOR_PLAN-S (2).pdf` — Family room addition
+- `5606_A-101_FLOOR_PLAN-S (3).pdf` — Family room addition
+- `5606_A-101_FLOOR_PLAN-S.pdf` — Family room addition
+- `5606_A-101_FLOOR_PLAN.pdf` — Family room addition
+- `713 N Ashbury Handrails.pdf` — Guardrail detail
+- `802 E Division Lombard- Print-corrected march 15.pdf` — Residential property
+- `802 E Division [22a773dc].pdf` — Residential property
+- `802 E Division.pdf` — Residential property
+- `851 N WALLER 001 (2).pdf` — House interior remodel
+- `851 N WALLER REY 2020 001.pdf` — House interior remodel
+- `851 N Waller Permit document.pdf` — House interior remodel
+- `851 N Waller Permit.pdf` — House interior remodel
+- `851 N Waller [bbbff516].pdf` — House interior remodel
+- `851 N Waller.pdf` — House interior remodel
+- `9456 Keystone-basement.pdf` — Two-storey residence
+- `9456 Keystone-clean.pdf` — Two-storey residence
+- `9456 Keystone-demolition.pdf` — Two-storey residence
+- `9456 Keystone.pdf` — Two-storey residence
+- `9679 - Exterior Finishes.pdf` — Exterior finish board
+- `A-001 SITE PLAN 100832030.pdf` — House remodel + egress
+- `A-101 FLOOR PLAN 100832030.pdf` — House remodel + egress
+- `A-201 EXTERIOR ELEVATIONS 100832030.pdf` — House permit set
+- `A-601 SCHEDULES 100832030.pdf` — House permit set
+- `CAMERA AND PROJECTOR FLOOR PLAN 1.pdf` — Residential plan
+- `CAMERA AND PROJECTOR FLOOR PLAN 2.pdf` — Residential plan
+- `CAMERA AND PROJECTOR FLOOR PLAN [09b3b0a5].pdf` — Residential plan
+- `COMPLETED_Electrical_Permit_App 100823083.pdf` — House permit set
+- `COMPLETED_Electrical_Permit_App 100823083_revised.pdf` — House permit set
+- `C__Users_CarlosWork_Documents_Basement - Sheet - A101 - Basement Floor Plan.pdf` — Basement plan
+- `C__Users_CarlosWork_Documents_Basement - Sheet - A102 - Reflected Ceiling Plan.pdf` — Basement plan
+- `FLOOR PLAN [ee9aa4b1].pdf` — Residential plan
+- `FLOOR PLAN.pdf` — Residential plan
+- `FLOOR_PLAN-A102.pdf` — Residential plan
+- `Floor Plan A101.pdf` — Residential plan
+- `Garage-GA101.pdf` — Detached garage
+- `KENTON_FLOOR_PLAN - garage GA101.pdf` — Detached garage
+- `L-101_LANDSCAPE_PLANS_100835351-1.pdf` — House permit set
+- `L-101_LANDSCAPE_PLANS_100835351.pdf` — House permit set
+- `Lyons - Original Permitted layout, with cabinet dimensions.pdf` — Kitchen casework
+- `M-001 GENERAL NOTES 100832221 [f3715875].pdf` — House permit set
+- `M-001 GENERAL NOTES 100832221.pdf` — House permit set
+- `M-101 DUCTWORK PLAN 100832221 [7d5389f2].pdf` — House permit set
+- `M-101 DUCTWORK PLAN 100832221.pdf` — House permit set
+- `M-101 DUCTWORK PLAN 100902954 [36b09079].pdf` — House permit set
+- `M-101 DUCTWORK PLAN 100902954.pdf` — House permit set
+- `Marengo-FloorPlan-MarengoScopeofWork.pdf` — Scope of work plan
+- `NOT COMPLETED_Electrical_Permit_App 100823083.pdf` — House permit set
+- `USA6420_A-102_Main Auditorium Floor Plan [20672c07].pdf` — Residential plan
+- `USA6420_A-107_MEZZANINE FLOOR PLAN [36e9f7f4].pdf` — Residential plan
+- `USA6420_A-107_MEZZANINE FLOOR PLAN [cc07753b].pdf` — Residential plan
+- `floor plan 1 [0dfc9c78].pdf` — Residential plan
+- `floor plan 1.pdf` — Residential plan
+- `floor plan 2.pdf` — Residential plan
+- `hippo homes land trust a_001.pdf` — Trust property
+- `lockwood floor plan.pdf` — House remodel + egress
+
+## Commercial
+
+- `04 Arc.pdf` — Building sections study
+- `042804-2013 A-101 Architectural Floor Plan-36x24.pdf` — Kingdom Hall renovation
+- `042804-2013 AD-101 Demolition-36x24.pdf` — Kingdom Hall renovation
+- `10402 - PERMIT REVIEW Set 7-31-2018.pdf` — Kingdom Hall renovation
+- `10402 - PERMIT Set 8-15-2018.pdf` — Kingdom Hall renovation
+- `10402 - PERMIT Set 8-25-2018.pdf` — Kingdom Hall renovation
+- `10402 L-102  Proposed Landscape plan.pdf` — Kingdom Hall renovation
+- `10402-DD-Shared_Permit_Set_7.4.2018.pdf` — Kingdom Hall renovation
+- `10402_A-101_FLOOR_PLAN-S.pdf` — Kingdom Hall renovation
+- `10402_AD101.pdf` — Kingdom Hall renovation
+- `10402_E-001.pdf` — Kingdom Hall renovation
+- `10402_E-001_GENERAL NOTES [1dfc24cc].pdf` — Kingdom Hall renovation
+- `10402_E-001_GENERAL NOTES [345a008a].pdf` — Kingdom Hall renovation
+- `10402_E-001_GENERAL NOTES [626d8654].pdf` — Kingdom Hall renovation
+- `10402_E-001_GENERAL NOTES.pdf` — Kingdom Hall renovation
+- `10402_E-001_SCHEDULES.pdf` — Kingdom Hall renovation
+- `10402_E-601.pdf` — Kingdom Hall renovation
+- `10402_E-601_ONE_LINE.pdf` — Kingdom Hall renovation
+- `10402_E-601_SCHEDULES_ONE_LINE_RISER_AND_DETAILS [98c33b10].pdf` — Kingdom Hall renovation
+- `10402_E-601_SCHEDULES_ONE_LINE_RISER_AND_DETAILS [a8a8d8fe].pdf` — Kingdom Hall renovation
+- `10402_E-601_SCHEDULES_ONE_LINE_RISER_AND_DETAILS.pdf` — Kingdom Hall renovation
+- `10402_E-602_LIGHTING_CONTROLS_AND_DETAILS.pdf` — Kingdom Hall renovation
+- `10402_EL101.pdf` — Kingdom Hall renovation
+- `10402_EL101_LIGHTING_PLAN S.pdf` — Kingdom Hall renovation
+- `10402_EL101_LIGHTING_PLAN [23aad5d0].pdf` — Kingdom Hall renovation
+- `10402_EL101_LIGHTING_PLAN [4c079163].pdf` — Kingdom Hall renovation
+- `10402_EL101_LIGHTING_PLAN [573f3d3a].pdf` — Kingdom Hall renovation
+- `10402_EL101_LIGHTING_PLAN [dede728e].pdf` — Kingdom Hall renovation
+- `10402_EL101_LIGHTING_PLAN [f99e1a59].pdf` — Kingdom Hall renovation
+- `10402_EL101_LIGHTING_PLAN.pdf` — Kingdom Hall renovation
+- `10402_EP101.pdf` — Kingdom Hall renovation
+- `10402_EP101_POWER_AND_LOW_VOLTAGE_PLAN [2a9e5b1a].pdf` — Kingdom Hall renovation
+- `10402_EP101_POWER_AND_LOW_VOLTAGE_PLAN [53139e9b].pdf` — Kingdom Hall renovation
+- `10402_EP101_POWER_AND_LOW_VOLTAGE_PLAN [910d50f6].pdf` — Kingdom Hall renovation
+- `10402_EP101_POWER_AND_LOW_VOLTAGE_PLAN.pdf` — Kingdom Hall renovation
+- `10402_EP101_POWER_LOW_VOLTAGE_PLAN.pdf` — Kingdom Hall renovation
+- `10402_INTERNAL_PERMIT_REVIEW.pdf` — Kingdom Hall renovation
+- `10402_M-101_DUCTWORK_PLAN S.pdf` — Kingdom Hall renovation
+- `10402_M-101_DUCTWORK_PLAN-S 2020.04.03.pdf` — Kingdom Hall renovation
+- `10402_Shared Permit Set - Landscape Fixed.pdf` — Kingdom Hall renovation
+- `10403_A-101_FLOOR_PLAN-S.pdf` — Kingdom Hall renovation
+- `128707-2013 A-101 Architectural Floor Plan- Estimating Insulation-36x24.pdf` — Kingdom Hall renovation
+- `128707-2013 A-201 Elevations-36x24.pdf` — Kingdom Hall renovation
+- `128707-2013 A-201 Elevations-North Wall Openings.pdf` — Kingdom Hall renovation
+- `128707-2013 A-602 Bathroom Details and Elevations-36x24.pdf` — Kingdom Hall renovation
+- `128707-2013 A-602 Enlarged Stage-36x24.pdf` — Kingdom Hall renovation
+- `128707-2013 A-603 Enlarged Stage-36x24 [5917d331].pdf` — Kingdom Hall renovation
+- `128707-2013 A-603 Enlarged Stage-36x24.pdf` — Kingdom Hall renovation
+- `128707-2013 A-603 Interior Elevations-36x24.pdf` — Kingdom Hall renovation
+- `128707-2013 C-103 As-Installed Site Utilities.pdf` — Kingdom Hall renovation
+- `128707-2013 M-101 Mechanical Floor Plan-36x24.pdf` — Kingdom Hall renovation
+- `13817 - Internal Permit Review Set.pdf` — Auditorium renovation
+- `13817 A-101 DEMOLITION PLAN.pdf` — Auditorium renovation
+- `13817 A-102 FLOOR PLAN.pdf` — Auditorium renovation
+- `13817 A-103 FINISH AND SEATING PLAN.pdf` — Auditorium renovation
+- `13817 A-104 REFLECTED CEILING PLAN.pdf` — Auditorium renovation
+- `13817 A-105 ROOF PLAN.pdf` — Auditorium renovation
+- `13817 A-201 EXTERIOR ELEVATIONS.pdf` — Auditorium renovation
+- `13817 A-202 EXTERIOR ELEVATIONS.pdf` — Auditorium renovation
+- `13817 A-505 NON-STRUCTURAL LMF DETAILS.pdf` — Auditorium renovation
+- `13817 A-600 WINDOW AND DOOR SCHEDULES.pdf` — Auditorium renovation
+- `13817_E-001_SCHEDULES [a5ce611e].pdf` — Auditorium renovation
+- `13817_E-001_SCHEDULES.pdf` — Auditorium renovation
+- `13817_E-101_LIGHTING_DEMOLITION_PLAN [822ac89e].pdf` — Auditorium renovation
+- `13817_E-101_LIGHTING_DEMOLITION_PLAN.pdf` — Auditorium renovation
+- `13817_E-102_POWER_LOW_VOLTAGE_DEMOLITION_PLAN [a834b67e].pdf` — Auditorium renovation
+- `13817_E-102_POWER_LOW_VOLTAGE_DEMOLITION_PLAN.pdf` — Auditorium renovation
+- `13817_E-103_LIGHTING_PLAN [7f8f40ed].pdf` — Auditorium renovation
+- `13817_E-103_LIGHTING_PLAN.pdf` — Auditorium renovation
+- `13817_E-104_POWER_LOW_VOLTAGE_PLAN [90aa212a].pdf` — Auditorium renovation
+- `13817_E-104_POWER_LOW_VOLTAGE_PLAN.pdf` — Auditorium renovation
+- `13817_E-601_ONE_LINE [4af1ae94].pdf` — Auditorium renovation
+- `13817_E-601_ONE_LINE.pdf` — Auditorium renovation
+- `13817_E-602_AUDIO_WIRING_DIAGRAMS-S.pdf` — Auditorium renovation
+- `13817_E-603_VIDEO_DATA_WIRING_DIAGRAMS-POTS.pdf` — Auditorium renovation
+- `13817_M-002_CITY_OF_CHICAGO_SCHEDULES S [0ad17e59].PDF` — Auditorium renovation
+- `13817_M-002_CITY_OF_CHICAGO_SCHEDULES S.PDF` — Auditorium renovation
+- `13817_M-101_DEMOLITION_PLAN, 4-10-19.pdf` — Auditorium renovation
+- `13817_M-101_DUCTWORK_PLAN A.PDF` — Auditorium renovation
+- `13817_M-102_DUCTWORK_PLAN A.PDF` — Auditorium renovation
+- `13817_M-102_DUCTWORK_PLAN, 4-10-19.pdf` — Auditorium renovation
+- `13817_PLAN.pdf` — Auditorium renovation
+- `13817_S-505 DETAILS-S.pdf` — Auditorium renovation
+- `13817_S-506_AWNING_tjs-S.pdf` — Auditorium renovation
+- `13817_Set_Ttapp.pdf` — Auditorium renovation
+- `17-149 - Floor Plan-A-0.0.pdf` — Assembly / institutional
+- `17-149 - Floor Plan-A-0.3.pdf` — Assembly / institutional
+- `17-149 - Floor Plan-A-1.0-1.pdf` — Assembly / institutional
+- `17-149 - Floor Plan-A-1.0.pdf` — Assembly / institutional
+- `17-149 - Floor Plan-A-1.1.pdf` — Assembly / institutional
+- `17-149 - Floor Plan-A-3.0.pdf` — Assembly / institutional
+- `17-149 - Floor Plan-A-4.0.pdf` — Assembly / institutional
+- `1_planta-principal.pdf` — Regional assembly hall
+- `2013-128512 A-901.pdf` — Permit set — assembly
+- `20247_A-101_FLOOR_PLAN demo.pdf` — Assembly / institutional
+- `20247_A-101_FLOOR_PLAN.pdf` — Assembly / institutional
+- `21115_A-001_LOWER_LEVEL_FLOOR_PLAN.pdf` — Assembly / institutional
+- `21115_A-101_FLOOR_PLAN.pdf` — Assembly / institutional
+- `21115_A-102_FINISH_PLAN.pdf` — Assembly / institutional
+- `21115_AD001_LOWER_LEVEL_DEMOLITION_FLOOR_PLAN.pdf` — Assembly / institutional
+- `21115_AD002_LOWER_LEVEL_DEMOLITION_CEILING_PLAN.pdf` — Assembly / institutional
+- `21115_AD101_DEMOLITION_FLOOR_PLAN.pdf` — Assembly / institutional
+- `21115_AD102_DEMOLITION_CEILING_PLAN.pdf` — Assembly / institutional
+- `21115_EX001_EXISTING_LOWER_LEVEL_ELECTRICAL_PLAN.pdf` — Assembly / institutional
+- `21115_EX101_EXISTING_ELECTRICAL_PLAN.pdf` — Assembly / institutional
+- `2_planta-baja.pdf` — Regional assembly hall
+- `3_estacionamiento.pdf` — Regional assembly hall
+- `4152 Michigan Main Floor Plan - Existing and Proposed Concept Plan.pdf` — Assembly hall concept
+- `4157 S Michigan Ave - Concept Sketch.pdf` — Mixed-use concept
+- `4225_W_ROOSEVELT - CONCEPT 01.pdf` — Mixed-use concept
+- `4225_W_ROOSEVELT - CONCEPT 02.pdf` — Mixed-use concept
+- `4225_W_ROOSEVELT - CONCEPT 03.pdf` — Mixed-use concept
+- `4225_W_Roosevelt_Existing_Site_Plan.pdf` — Mixed-use concept
+- `4225_W_Roosevelt_USA200_SK-1.pdf` — Assembly / institutional
+- `4837 Grove.pdf` — Renovation plan
+- `4_mapa-departamentos.pdf` — Regional assembly hall
+- `5606_A-001_DEMO_PLAN-S.pdf` — Kingdom Hall / restaurant
+- `5606_A-201_EXTERIOR_ELEVATIONS-S.pdf` — Kingdom Hall / restaurant
+- `5606_CD_floor_plan_2016.11.4.pdf` — Kingdom Hall / restaurant
+- `5606_E-001.pdf` — Kingdom Hall / restaurant
+- `5606_E-601.pdf` — Kingdom Hall / restaurant
+- `5606_E-602.pdf` — Kingdom Hall / restaurant
+- `5606_E-603.pdf` — Kingdom Hall / restaurant
+- `5606_EL-101.pdf` — Kingdom Hall / restaurant
+- `5606_EL101_LIGHTING_PLAN-EL101.pdf` — Kingdom Hall / restaurant
+- `5606_EP-101.pdf` — Kingdom Hall / restaurant
+- `5606_M-101 PDF.pdf` — Kingdom Hall / restaurant
+- `5606_M-101_DUCTWORK_PLAN.pdf` — Kingdom Hall / restaurant
+- `5606_P-102_WATER_GAS_PLAN.pdf` — Kingdom Hall / restaurant
+- `6570 N Harlem_11-3-2018.pdf` — Kingdom Hall renovation
+- `6570 N Harlem_6-8-2019.pdf` — Kingdom Hall renovation
+- `6570 N Harlem_6-8-2019_v2.pdf` — Kingdom Hall renovation
+- `6_mapa-evacuacion.pdf` — Regional assembly hall
+- `9431_A-101_BASEMENT_FLOOR_PLAN-S.pdf` — Assembly / institutional
+- `9431_A-102_FIRST_FLOOR_PLAN.pdf` — Assembly / institutional
+- `9431_A-501_EXTERIOR_WALL_DETAILS S (1).pdf` — Assembly / institutional
+- `9431_AD001_BASEMENT DEMO PLAN-S.pdf` — Assembly / institutional
+- `9431_M-100_MECH_PLAN_BASEMENT.pdf` — Permit set — assembly
+- `9431_P-001_SCHEDULES-S.pdf` — Assembly / institutional
+- `9431_P-100_SITE_STORM_DRAINAGE-S.pdf` — Assembly / institutional
+- `9431_P-100_SITE_STORM_DRAINAGE.pdf` — Assembly / institutional
+- `9431_P-101_WATER PLAN - MAIN FLOOR-S.pdf` — Assembly / institutional
+- `9431_P-102_2019.01.10.pdf` — Assembly / institutional
+- `9431_P-102_WATER PLAN - BASEMENT-S.pdf` — Assembly / institutional
+- `9431_P-102_WATER_PLAN_BASEMENT.pdf` — Assembly / institutional
+- `9431_P-103_GAS PIPING PLAN - BASEMENT-S.pdf` — Assembly / institutional
+- `9431_Permit_Review_set.pdf` — Assembly / institutional
+- `9431_Permit_Set_Review.pdf` — Assembly / institutional
+- `9_mapa-estacionamiento.pdf` — Regional assembly hall
+- `A-602_VIDEO_CABLING_FLOOR_PLAN.pdf` — Permit set — assembly
+- `A-603 MEZANNINE_VIDEO_CABLING_FLOOR_PLAN.pdf` — Permit set — assembly
+- `AS-BUILT FLOOR PLAN.pdf` — Permit set — assembly
+- `AS-BUILT MECHANICAL FLOOR PLAN.pdf` — Permit set — assembly
+- `Antioch_10403_EL101_LIGHTING_PLAN.pdf` — Permit set — assembly
+- `Bellwood Floor Plan.pdf` — Kingdom Hall renovation
+- `C-101 ASPHALT REPLACEMENT [53e7ee47].pdf` — Site work
+- `C-101 ASPHALT REPLACEMENT.pdf` — Site work
+- `C-101 FENCE DETAIL PLAN [36908228].pdf` — Site work
+- `C-101 FENCE DETAIL PLAN.pdf` — Site work
+- `C-101 PARKING LIGHTING.pdf` — Site work
+- `CAMERA AND PROJECTOR FLOOR PLAN.pdf` — Permit set — assembly
+- `C_Users_carlo_Desktop_2.1 Site_2.1.1 CAD_Site_5606_C-101_ASPHALT REPLACEMENT FENCE (1).pdf` — Kingdom Hall / restaurant
+- `C_Users_carlo_Desktop_2.1 Site_2.1.1 CAD_Site_5606_C-101_ASPHALT REPLACEMENT LIGHT POLE (1).pdf` — Kingdom Hall / restaurant
+- `C_Users_carlo_Desktop_2.1 Site_2.1.1 CAD_Site_5606_C-101_ASPHALT REPLACEMENT S (1).pdf` — Kingdom Hall / restaurant
+- `C_Users_carlo_Desktop_RAH AVIT_Project Files_2017 Video Wall and Broadcasting_Main Auditorium_Floor Plan & Elevation Elevation (1).pdf` — Permit set — assembly
+- `E-001 SCHEDULES 100832030 [67420699].pdf` — Permit set — assembly
+- `E-001 SCHEDULES 100832030.pdf` — Permit set — assembly
+- `E-001 [9717362b].pdf` — Permit set — assembly
+- `E-001.pdf` — Permit set — assembly
+- `E-001_GENERAL NOTES [3f8983a0].pdf` — Permit set — assembly
+- `E-001_GENERAL NOTES [af8c4931].pdf` — Permit set — assembly
+- `E-001_GENERAL NOTES.pdf` — Permit set — assembly
+- `E-101_LIGHTING_DEMOLITION_PLAN [066f9c61].pdf` — Permit set — assembly
+- `E-101_LIGHTING_DEMOLITION_PLAN [53d72fc3].pdf` — Permit set — assembly
+- `E-101_LIGHTING_DEMOLITION_PLAN.pdf` — Permit set — assembly
+- `E-102_POWER_LOW_VOLTAGE_DEMOLITION_PLAN [4ba03353].pdf` — Permit set — assembly
+- `E-102_POWER_LOW_VOLTAGE_DEMOLITION_PLAN [7f4bd4fd].pdf` — Permit set — assembly
+- `E-102_POWER_LOW_VOLTAGE_DEMOLITION_PLAN.pdf` — Permit set — assembly
+- `E-103_LIGHTING_PLAN [3eb37f2b].pdf` — Permit set — assembly
+- `E-103_LIGHTING_PLAN [e6de1f68].pdf` — Permit set — assembly
+- `E-103_LIGHTING_PLAN.pdf` — Permit set — assembly
+- `E-104_POWER_LOW_VOLTAGE_PLAN [aa577dc1].pdf` — Permit set — assembly
+- `E-104_POWER_LOW_VOLTAGE_PLAN [e605f028].pdf` — Permit set — assembly
+- `E-104_POWER_LOW_VOLTAGE_PLAN.pdf` — Permit set — assembly
+- `E-105_ROOF_PLAN [d5f0c20e].pdf` — Permit set — assembly
+- `E-105_ROOF_PLAN [ebf5f77f].pdf` — Permit set — assembly
+- `E-105_ROOF_PLAN.pdf` — Permit set — assembly
+- `E-201.pdf` — Permit set — assembly
+- `E-202.pdf` — Permit set — assembly
+- `E-203.pdf` — Permit set — assembly
+- `E-204.pdf` — Permit set — assembly
+- `E-301.pdf` — Permit set — assembly
+- `E-601.pdf` — Permit set — assembly
+- `E-601_SCHEDULE, ONE_LINE_RISER_AND_DETAILS [350c70a7].pdf` — Permit set — assembly
+- `E-601_SCHEDULE, ONE_LINE_RISER_AND_DETAILS [fed1f674].pdf` — Permit set — assembly
+- `E-601_SCHEDULE, ONE_LINE_RISER_AND_DETAILS.pdf` — Permit set — assembly
+- `E-602_AUDIO_WIRING_DIAGRAM [70e42e6a].pdf` — Permit set — assembly
+- `E-602_AUDIO_WIRING_DIAGRAM [e8244534].pdf` — Permit set — assembly
+- `E-602_AUDIO_WIRING_DIAGRAM.pdf` — Permit set — assembly
+- `E-603_VIDEO_DATA_WIRING_DIAGRAM [705951c7].pdf` — Permit set — assembly
+- `E-603_VIDEO_DATA_WIRING_DIAGRAM [e8a1c2b2].pdf` — Permit set — assembly
+- `E-603_VIDEO_DATA_WIRING_DIAGRAM.pdf` — Permit set — assembly
+- `E601 Zion Elect Redlines 02172020.pdf` — Permit set — assembly
+- `E601_SCHEDULES ONE LINE RISER AND DETAILS.pdf` — Permit set — assembly
+- `EL101 LIGHTING PLAN 100832030 [a5e4a949].pdf` — Permit set — assembly
+- `EL101 LIGHTING PLAN 100832030.pdf` — Permit set — assembly
+- `EL101 Zion Elect Redline 02172020 [dd074d01].pdf` — Permit set — assembly
+- `EL101 Zion Elect Redline 02172020.pdf` — Permit set — assembly
+- `EL101.pdf` — Permit set — assembly
+- `EP101 Zion Elect Redlines 02172020.pdf` — Permit set — assembly
+- `FT2013 A-101 Architectural Floor Plan-36x24 [41b7f2c0].pdf` — Kingdom Hall renovation
+- `FT2013 A-101 Architectural Floor Plan-36x24 [a8546d6e].pdf` — Kingdom Hall renovation
+- `FT2013 A-101 Architectural Floor Plan-36x24 [ac756f8e].pdf` — Kingdom Hall renovation
+- `FT2013 A-101 Architectural Floor Plan-36x24.pdf` — Kingdom Hall renovation
+- `FT2013 A-101 New Architectural Floor Plan-36x24.pdf` — Kingdom Hall renovation
+- `FT2013 A-102 Reflected Ceiling Plan-36x24.pdf` — Kingdom Hall renovation
+- `HARLEM Floor Plan.pdf` — Kingdom Hall renovation
+- `Harlem L-101.pdf` — Kingdom Hall renovation
+- `Harlem permit redlines Scan_20191118.pdf` — Kingdom Hall renovation
+- `M-001 GENERAL NOTES 100832030.pdf` — Permit set — assembly
+- `M-100_Mech Plan Basement_11-5-18.pdf` — Permit set — assembly
+- `M-101 DUCTWORK PLAN 100832030.pdf` — Permit set — assembly
+- `M-101_Ductwork Plan_11-5-18.pdf` — Permit set — assembly
+- `M-203 HVAC Perimeter heating lines - Existing [234f997c].pdf` — Permit set — assembly
+- `M-203 HVAC Perimeter heating lines - Existing.pdf` — Permit set — assembly
+- `M001.pdf` — Permit set — assembly
+- `M101.pdf` — Permit set — assembly
+- `M101_DUCTWORK PLAN.pdf` — Permit set — assembly
+- `P-001 SCHEDULES 100832030.pdf` — Permit set — assembly
+- `P-100 SITE STORM DRAINAGE PLAN.pdf` — Permit set — assembly
+- `P-101 WASTE VENT PLAN 100832030.pdf` — Permit set — assembly
+- `P-102 WATER GAS PLAN 100832030.pdf` — Permit set — assembly
+- `P-102 WATER PLAN BASEMENT_corrected July3.pdf` — Permit set — assembly
+- `S-102 roof.pdf` — Permit set — assembly
+- `S-139-S (1).pdf` — Permit set — assembly
+- `S-141-S.pdf` — Permit set — assembly
+- `S-205-S 3.pdf` — Permit set — assembly
+- `S-205-S.pdf` — Permit set — assembly
+- `S-307-S.pdf` — Permit set — assembly
+- `S-315-S (1).pdf` — Permit set — assembly
+- `S-315-S (2).pdf` — Permit set — assembly
+- `S-317-S CA 2019.pdf` — Permit set — assembly
+- `S-332-S_Us(1).pdf` — Permit set — assembly
+- `S-505.pdf` — Permit set — assembly
+- `TEINNOVATIONS A101.pdf` — Tenant build-out
+- `Telinnovation A101.pdf` — Tenant build-out
+- `USA 5142-B01_A101-EXISTING BASEMENT FLOOR PLAN-S-04.15.2019.pdf` — Assembly / institutional
+- `USA 5142-B01_A102-EXISTING FLOOR PLAN-S-04.15.2019.pdf` — Assembly / institutional
+- `USA.13817_A-101_DEMOLITION_PLAN S (1).pdf` — Auditorium renovation
+- `USA1024-B2_CURRENT_FLOOR_PLAN PLAN-MARKUP.pdf` — Permit set — assembly
+- `USA13817_A-102_FLOOR_PLAN S (1).pdf` — Auditorium renovation
+- `USA13817_A-103_REFLECTED_CEILING_PLAN A (1).pdf` — Auditorium renovation
+- `USA170_A-101_DEMOLITION_PLAN S.pdf` — Assembly / institutional
+- `USA170_A-101_FLOOR_PLAN S (1).pdf` — Assembly / institutional
+- `USA170_A-102_FLOOR_PLAN S.pdf` — Assembly / institutional
+- `USA170_A-103_FINISH_PLAN S.pdf` — Assembly / institutional
+- `USA170_A-104_REFLECTED_CEILING_PLAN A (1).pdf` — Assembly / institutional
+- `USA170_A-104_REFLECTED_CEILING_PLAN A.pdf` — Assembly / institutional
+- `USA170_A-105_ROOF_PLAN A.pdf` — Assembly / institutional
+- `USA170_A-201_EXTERIOR ELEVATIONS.pdf` — Assembly / institutional
+- `USA170_A-202_EXTERIOR_ELEVATIONS S.pdf` — Assembly / institutional
+- `USA170_A-203_INTERIOR_ELEVATIONS S.pdf` — Assembly / institutional
+- `USA170_A-204_INTERIOR_ELEVATIONS S.pdf` — Assembly / institutional
+- `USA170_A-301_BUILDING_SECTIONS S.pdf` — Assembly / institutional
+- `USA170_A-502_PARAPET_DETAILS S.pdf` — Assembly / institutional
+- `USA170_A-503_ROOF_DETAILS S.pdf` — Assembly / institutional
+- `USA170_A-504_ROOF_DETAILS S.pdf` — Assembly / institutional
+- `USA170_A-601_SCHEDULES S.pdf` — Assembly / institutional
+- `USA170_E-103_POWER_LOW_VOLTAGE_PLAN-S3.pdf` — Assembly / institutional
+- `USA170_E-602_AUDIO_WIRING_DIAGRAMS-S.pdf` — Assembly / institutional
+- `USA170_S-501 DETAILS S (1).pdf` — Assembly / institutional
+- `USA170_S-501 DETAILS S.pdf` — Assembly / institutional
+- `USA170_S-501 DETAILS-S.pdf` — Assembly / institutional
+- `USA170_S-501 DETAILS-tt.pdf` — Assembly / institutional
+- `USA170_S-501 DETAILS_cz2 S.pdf` — Assembly / institutional
+- `USA200_A-101_FLOOR_PLAN S [53d9f50c].pdf` — Assembly / institutional
+- `USA200_A-101_FLOOR_PLAN S.pdf` — Assembly / institutional
+- `USA200_A-101_FLOOR_PLAN SD.pdf` — Assembly / institutional
+- `USA200_A-101_VIDEO_WALL_FLOOR_PLAN.pdf` — Assembly / institutional
+- `USA200_A-201_VIDEO WALL ELEVATION STRUCTURE 2.pdf` — Assembly / institutional
+- `USA200_A-201_VIDEO WALL ELEVATION STRUCTURE [09bc4e7e].pdf` — Assembly / institutional
+- `USA200_A-201_VIDEO WALL ELEVATION STRUCTURE.pdf` — Assembly / institutional
+- `USA200_A-202_VIDEO WALL SIDE ELEVATIONS.pdf` — Assembly / institutional
+- `USA200_A-301_VIDEO WALL.pdf` — Assembly / institutional
+- `USA200_A-501_EXTERIOR_WALL_DETAILS-carport.pdf` — Assembly / institutional
+- `USA200_AD-101_DEMOLITION_PLAN S.pdf` — Assembly / institutional
+- `USA200_P-101_WASTE_VENT_PLAN S-FO.pdf` — Assembly / institutional
+- `USA200_P-102_WATER_GAS_PLAN S.pdf` — Assembly / institutional
+- `USA200_S-505_AWNING_tjs - Copyd S (1).pdf` — Assembly / institutional
+- `USA200_S-505_AWNING_tjs - Copyd S.pdf` — Assembly / institutional
+- `USA200_S-505_WINDOW AWNING-S.pdf` — Assembly / institutional
+- `USA200_S-506_AWNING_tjs S (1).pdf` — Assembly / institutional
+- `USA200_S-506_AWNING_tjs S.pdf` — Assembly / institutional
+- `USA6420-B02 A-101A FRONT STAGE ELEVATION [e8e8bcc2].pdf` — Assembly / institutional
+- `USA6420-B02 A-101A FRONT STAGE ELEVATION.pdf` — Assembly / institutional
+- `USA6420-B02 A-101B STAGE AREA [c7b8816d].pdf` — Assembly / institutional
+- `USA6420-B02 A-101B STAGE AREA.pdf` — Assembly / institutional
+- `USA6420-B02 A-101C OVERALL PLAN AND SCREEN WALL BLOWOUT.pdf` — Assembly / institutional
+- `USA6420-B02 A-101C OVERALL PLAN AND SCREEN WALL BLOWOUTS.pdf` — Assembly / institutional
+- `USA6420-B02 A-101D MEZZANINE PLAN.pdf` — Assembly / institutional
+- `USA6420-B02 A-201 VIDEO WALL ELEVATIONS AND STRUCTURE.pdf` — Assembly / institutional
+- `USA6420-B02 A-301 VIDEO WALL SECTION.pdf` — Assembly / institutional
+- `USA6420_A-101_FLOOR_PLAN [6a0cfede].pdf` — Assembly / institutional
+- `USA6420_A-101_FLOOR_PLAN.pdf` — Assembly / institutional
+- `USA6420_A-102_Main Auditorium Floor Plan.pdf` — Assembly / institutional
+- `USA6420_A-103 VIDEO ROOM FLOOR PLAN AND DETAILS [8c1a30bd].pdf` — Assembly / institutional
+- `USA6420_A-103 VIDEO ROOM FLOOR PLAN AND DETAILS.pdf` — Assembly / institutional
+- `USA6420_A-104_STRUCTURAL_FLOOR_PLAN [52e0d3e7].pdf` — Assembly / institutional
+- `USA6420_A-104_STRUCTURAL_FLOOR_PLAN.pdf` — Assembly / institutional
+- `USA6420_A-105_VIDEO_WALL-SIDE_ELEVATION [eec74897].pdf` — Assembly / institutional
+- `USA6420_A-105_VIDEO_WALL-SIDE_ELEVATION.pdf` — Assembly / institutional
+- `USA6420_A-106_VIDEO_WALL_ELEVATIONS_SECTION_AND_STRUCTURE.pdf` — Assembly / institutional
+- `USA6420_A-107_MEZZANINE FLOOR PLAN.pdf` — Assembly / institutional
+- `USA6420_E-001_SCHEDULES [8ebde500].pdf` — Assembly / institutional
+- `USA6420_E-001_SCHEDULES.pdf` — Assembly / institutional
+- `USA6420_E-601_ONE_LINE.pdf` — Assembly / institutional
+- `USA6420_EL101_LIGHTING_PLAN.pdf` — Assembly / institutional
+- `USA6420_EP101_POWER_LOW_VOLTAGE_PLAN [68205030].pdf` — Assembly / institutional
+- `USA6420_EP101_POWER_LOW_VOLTAGE_PLAN.pdf` — Assembly / institutional
+- `USA6420_EP102_POWE_LOW_VOLTAGE PLAN _MEZZANINE [8dce83cd].pdf` — Assembly / institutional
+- `USA6420_EP102_POWE_LOW_VOLTAGE PLAN _MEZZANINE.pdf` — Assembly / institutional
+- `USA6420_M-101_VIDEO_ROOM_HVAC.pdf` — Assembly / institutional
+- `USA9431-EF100-BASEMENT-FIRE-ALARM-PLAN-EF100.pdf` — Assembly / institutional
+- `USA9431-EF101-FIRST-FLOOR-FIRE-ALARM-PLAN-EF101.pdf` — Assembly / institutional
+- `USA9431_E-601_ONE_LINE_DIAGRAM AND DETAILS-E-601.pdf` — Assembly / institutional
+- `USA9431_E-601_ONE_LINE_DIAGRAM AND DETAILS.pdf` — Assembly / institutional
+- `USA9431_EL100_BASEMENT_LIGHTING_PLAN-EL100 [e50d1480].pdf` — Assembly / institutional
+- `USA9431_EL100_BASEMENT_LIGHTING_PLAN-EL100.pdf` — Assembly / institutional
+- `USA9431_P102_WATER_PLAN_BASEMENT.pdf` — Assembly / institutional
+- `USA9431_Permit_Review_Set_11-29-2018.pdf` — Assembly / institutional
+- `USA9431_Permit_Review_set_11-07-2018.pdf` — Assembly / institutional
+- `USA9871_A-101_FLOOR_PLAN-S.pdf` — Assembly / institutional
+- `USA9871_A-102_MAIN FLOOR PLAN-S.pdf` — Assembly / institutional
+- `USA9871_A-103_VIDEO ROOM PLAN AND DETAILS-S.pdf` — Assembly / institutional
+- `USA9871_A-104_STRUCTURAL_FLOOR_PLAN-S.pdf` — Assembly / institutional
+- `USA9871_A-105_VIDEO_WALL-SIDE_ELEVATION-S.pdf` — Assembly / institutional
+- `USA9871_A-106_VIDEO_WALL_ELEVATIONS_SECTION_AND_STRUCTURE-S.pdf` — Assembly / institutional
+- `USA9871_E-001_SCHEDULES-E-001.pdf` — Assembly / institutional
+- `USA9871_E-601_ONE_LINE-E-601.pdf` — Assembly / institutional
+- `USA9871_EP101_POWER_LOW_VOLTAGE_PLAN-EP101.pdf` — Assembly / institutional
+- `USA9871_EP102_POWER_LOW_VOLTAGE_PLAN_WEST_MEZZANINE-EP102.pdf` — Assembly / institutional
+- `USA9871_SET FOR PERMIT REVIEW.pdf` — Assembly / institutional
+- `Z-Carlos D(Can-11) T-183-1.pdf` — Kingdom Hall renovation
+- `ZION 042804-2013 A-101 Architectural Floor Plan-36x24.pdf` — Kingdom Hall renovation
+- `s-506.pdf` — Permit set — assembly
+
+## Document
+
+- `119 E robinhood way, bolingbrook [ec01224e].pdf` — Survey / contract
+- `119 E robinhood way, bolingbrook.pdf` — Survey / contract
+- `119 e robinhood_001 page 2.pdf` — Survey / contract
+- `119 e robinhood_001 pages 1, 2.pdf` — Survey / contract
+- `148 n ashbury.pdf` — Survey
+- `19-15-S 851 N.WALLER INVOICE.pdf` — Permit / compliance
+- `230 Lafayette.pdf` — Contract
+- `2858 N. Drake Drawings_03052019(1).pdf` — Survey
+- `428 Revised FINAL.pdf` — Permit form
+- `428 Revised.pdf` — Permit form
+- `48_W_59th_Street_6-8-2019.pdf` — Survey
+- `50dbac27-28c1-4abd-ad9c-005a12572545.pdf` — Administrative scan
+- `55a39f5a-8194-4e49-a875-a9d200b3f2b1.pdf` — Administrative scan
+- `5606_COMCHECK.pdf` — Permit / compliance
+- `8137 S Western - CVC 2016.pdf` — Permit / compliance
+- `90c72ef4-4f20-4572-81d5-c82c690cfb58.pdf` — Administrative scan
+- `Building Permit 10090295.pdf` — Permit / compliance
+- `Easy Permit Application [d1ba08c7].pdf` — Permit / compliance
+- `Easy Permit Application.pdf` — Permit / compliance
+- `Easy Permit Process FlowChart.pdf` — Permit / compliance
+- `Easy Permit Process Procedures.pdf` — Permit / compliance
+- `ElectricalPermitApp2011 - clean.pdf` — Permit / compliance
+- `ElectricalPermitApp2011(1).pdf` — Permit / compliance
+- `ElectricalPermitApp2011.pdf` — Permit / compliance
+- `ElectricalPermitApp2011422 N Lockwood.pdf` — Permit / compliance
+- `ElectricalPermitApp2011Signed.pdf` — Permit / compliance
+- `Guide to Permits.pdf` — Permit / compliance
+- `Lockwood Permit Application.pdf` — Permit / compliance
+- `Permit Process Overview.pdf` — Permit / compliance
+- `PermitApplication-Facilities-2018.pdf` — Permit / compliance
+- `Permits- contractor list.pdf` — Permit / compliance
+- `Western_Occupancy_Permit.pdf` — Permit / compliance
+- `When Permit Not Required.pdf` — Permit / compliance
+- `b993a110-e687-449c-8dea-aa310104401e.pdf` — Administrative scan
+- `permit for chicago 1.pdf` — Permit form
+- `permit for chicago 2.pdf` — Permit form
+- `permit-app-Gilbert.pdf` — Permit form
+
+## Unclassified
+
