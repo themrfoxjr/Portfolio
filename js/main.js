@@ -105,7 +105,7 @@ const SETS = [
   {
     name: 'keystone',
     title: '9456 Keystone Ln — Skokie',
-    blurb: 'Second-storey addition and basement finish. The whole permit set in order: demolition and framing, floor and kitchen plans, all four elevations, sections, wall details, schedules, and the electrical, plumbing and mechanical sheets.',
+    blurb: 'Second-storey addition and basement finish. The whole permit set in order: demolition and framing, floor and kitchen plans, all four elevations, sections, wall details, and the electrical, plumbing and mechanical sheets.',
     sheets: [
       { file: 'keystone-p01', sheet: 'G-001', label: 'Cover and scope of work' },
       { file: 'keystone-p02', sheet: 'G-002', label: 'Site plan' },
@@ -121,7 +121,6 @@ const SETS = [
       { file: 'keystone-p12', sheet: 'A9',    label: 'Building sections' },
       { file: 'keystone-p13', sheet: 'A10',   label: 'Wall sections' },
       { file: 'keystone-p14', sheet: 'A11',   label: 'Wall sections, enlarged' },
-      { file: 'keystone-p15', sheet: 'A15',   label: 'Schedules' },
       { file: 'keystone-p16', sheet: 'A16',   label: 'Reflected ceiling plan' },
       { file: 'keystone-p17', sheet: 'E0',    label: 'Basement electrical plan' },
       { file: 'keystone-p18', sheet: 'E1',    label: 'Electrical plans' },
@@ -162,7 +161,6 @@ const SETS = [
       { file: 'lockwood-p02', sheet: 'A-101', label: 'Basement floor plan' },
       { file: 'lockwood-p03', sheet: 'AN101', label: 'Basement and first floor ceiling plan' },
       { file: 'lockwood-p04', sheet: 'A-601', label: 'Window and door schedules' },
-      { file: 'lockwood-p05', sheet: 'P-001', label: 'General notes, schedules and details' },
       { file: 'lockwood-p06', sheet: 'P-101', label: 'Condensate, waste and vent plans' },
       { file: 'lockwood-p07', sheet: 'P-102', label: 'Domestic water and gas plan' },
       { file: 'lockwood-p08', sheet: 'M-001', label: 'General notes and schedules' },
