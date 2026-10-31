@@ -15,33 +15,41 @@ Then open http://localhost:8000.
 ## Structure
 
 ```
-index.html          single page: hero, project index, drawing archive, built work, about, contact
-css/style.css       all styling
-js/main.js          drawing data + gallery filtering + lightbox
-images/plans/       full-size drawings (JPEG, 1800 px on the long edge)
-images/photos/      built-work photographs and study boards (JPEG, 1600 px)
-images/thumbs/      gallery thumbnails (JPEG, 700 px on the long edge)
-docs/               plan archive catalog (CSV + Markdown) of the source drawing dump
+index.html      hero, work grid, about, contact, project view, lightbox
+css/style.css   all styling
+js/data.js      the project list — one object per project
+js/main.js      renders the grid, the project view and the lightbox
+favicon.svg
+images/
+  sets/         drawing sheets, one folder per project, plus thumbs/
+  photos/       photographs, plus thumbs/
+  thumbs/       thumbnails for photographs
+docs/           plan catalog of the original drawing dump
 ```
 
-## Adding a drawing
+## Adding a project
 
-1. Put the full image in `images/plans/` and a thumbnail in `images/thumbs/`, using the same
-   file name.
-2. Add one entry to the `PLANS` array in `js/main.js`:
-   `{ id: 'res-my-project', cat: 'residential', title: '…', sheet: 'A-101', alt: '…' }`.
-   `cat` is `residential` or `commercial`.
+Add one object to `PROJECTS` in `js/data.js`:
 
-The counts on the filter buttons update themselves from the `PLANS` list, and a filter with
-nothing in it shows an empty-state message rather than a blank panel.
+```js
+{
+  id: 'my-project',            // also the folder name under images/sets/
+  title: 'My Project',
+  location: 'Chicago',         // optional
+  line: 'One sentence on what it is.',
+  category: 'residential',     // or 'commercial'
+  cover: 'images/sets/my-project/thumbs/p01.jpg',
+  meta: '12 sheets',
+  images: [
+    { thumb: 'images/sets/my-project/thumbs/p01.jpg',
+      full:  'images/sets/my-project/p01.jpg',
+      cap:   'A-101 · Floor plan' }
+  ]
+}
+```
 
-## Built work
-
-The stories under `#built` are plain markup in `index.html` — one `<article class="story">` per
-project, with a `<figure>` per image. Any image in `.story-media` opens in the lightbox, so no
-JavaScript change is needed to add one.
+Everything else — grid, filters, counts, project view, viewer — picks it up automatically.
 
 ## Publishing
 
-Pushing to `main` and enabling GitHub Pages (Settings → Pages → Deploy from branch → `main` / root)
-serves the site at `https://<user>.github.io/Portfolio/`.
+Pushing to `main` publishes to GitHub Pages (Settings → Pages → Deploy from branch → `main` / root).
